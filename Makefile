@@ -106,6 +106,7 @@ cf_upload: publish
 # github: publish
 # 	ghp-import $(OUTPUTDIR)
 # 	git push origin gh-pages
+
 github: publish
 	git add . ; git commit -am 'by cpy' ; git push
 
