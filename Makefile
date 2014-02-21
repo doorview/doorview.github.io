@@ -107,7 +107,7 @@ cf_upload: publish
 # 	ghp-import $(OUTPUTDIR)
 # 	git push origin gh-pages
 github: publish
-	git add . ; git commit -am 'by cpy' ; git push https://github.com/doorview/doorview.github.io.git
+	git add . ; git commit -am 'by cpy' ; git push
 
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
